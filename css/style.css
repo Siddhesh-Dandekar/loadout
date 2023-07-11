@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Kaushan+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* THIS HANDLES THE HEADER PART OF THIS WEBSITE */
+
+#back {
+    background-color: whitesmoke;
+}
+.back2{
+    position: sticky;
+    top: 0;
+}
+.nav-handler{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav img{
+    
+    width: 80px;
+    margin-right: 10px;
+}
+.left-nav span{
+    margin-top: 10px;
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+    color: #fff;
+}
+
+.left-nav {
+    padding: 0 30px 0 30px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    width: 40%;
+
+}
+
+.right-nav{
+    padding: 0px 30px 0px 30px;
+    align-items: center;
+    width: 60%;
+    font-size: 28px;
+    font-family: 'Alkatra', cursive;
+    
+   
+
+}
+.right-nav ul{
+    display: flex;
+    justify-content: end;
+    
+}
+.right-nav ul li {
+    margin: 0px 20px;
+}
+
+.right-nav ul li a {
+    color: #fff;
+}
+
+/*THIS HANDLES THE MAIN SECTION OF WEBSITE */
+
+#main{
+    background-image: url("/img/martin-bergquist-concept-c-010.jpg");
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#content {
+    padding: 60px 0;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Alkatra', cursive;
+}
+h2{
+    font-size: 35px;
+    color:yellowgreen;
+    font-family: 'Alkatra', cursive;
+}
+
+/* THIS IS SECTION 2 */
+
+#main2{
+    background-image: url("/img/giphy.gif");
+    height: auto;
+    background-color: black;
+    padding: 40px;
+
+}
+
+h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+
+}
+
+.info-1{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.left-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.right-info{
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.left-info img {
+    
+    width: 180px;
+    border-radius: 20px;
+}
+
+.info-2{
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+}
+
+.info-3{
+    justify-content: center;
+    display: flex;
+}
+
+/* THIS IS EVENT SECTION */
+
+#main3{
+    padding: 20px 60px;
+    height: auto;
+    background-color:black;
+}
+
+.events{
+    width: 100%;
+}
+
+.events-info{
+    display: flex;
+}
+
+.card{
+    width: 30%;
+    position: relative;
+    width: 300px;
+    height: min-content;
+    padding: 5px;
+    background: #ffff;
+    border: 2px solid #e1e3e6;
+    border-radius: 18px;
+    transition: .4s;
+}
+.card img{
+    width: 300px;
+    position: relative;
+    height: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-info {
+    text-align: start;
+    margin: 20px;
+    width: 70%;
+}
+
+.card-info h1{
+    font-size: 18px;
+
+}
+
+
+.register {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Alkatra', cursive;
+    cursor: pointer;
+}
+
+/* THIS IS FOOTER */
+
+.bottom{
+    padding: 10px 30px 10px 30px;
+}
+.footer-main{
+
+    display: flex;
+    width: 100%;
+}
+
+.left-footer{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    width: 80%;
+    font-family: 'Alkatra', cursive;
+    font-size: 30px;
+}
+.left-footer img{
+    margin-right: 15px;
+    border-radius: 30px;
+    width: 60px;
+
+}
+
+.left-footer span{
+    margin-top: 10px;
+}
+
+h8{
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+.right-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.right-footer img{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 40px;
+}
+
+
+
+/* HOVER EFFECT */
+.right-nav ul li a:hover{
+    color: greenyellow;
+}
+
+.right-footer :hover{
+    background-color: yellowgreen;
+    border-radius: 18px;
+
+  
+}
+mark{
+    background-color: blueviolet;
+    font-size: 25px;
+    color: white;
+}
+
+u{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#Vertical-line{
+    width: 1.5px;
+    height: 45px;
+    background-color: grey;
+    margin-left: 15px;
+    
+}
