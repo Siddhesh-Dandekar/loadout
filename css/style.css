@@ -75,7 +75,7 @@ html{
 /*THIS HANDLES THE MAIN SECTION OF WEBSITE */
 
 #main{
-    background-image: url("/img/martin-bergquist-concept-c-010.jpg");
+    background-image: url("img/martin-bergquist-concept-c-010.jpg");
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,7 +102,7 @@ h2{
 /* THIS IS SECTION 2 */
 
 #main2{
-    background-image: url("/img/giphy.gif");
+    background-image: url("img/giphy.gif");
     height: auto;
     background-color: black;
     padding: 40px;
